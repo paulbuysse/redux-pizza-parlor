@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkout {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40rem;
+    table-layout: fixed;
+  }
+  
+  .checkout td, .checkout th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .checkout tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .checkout tr:hover {background-color: #ddd;}
+  
+  .checkout th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #07AA9E;
+    color: white;
+  }
+
+  .checkout th:nth-child(2) {
+      text-align: center;
+      width: 100px;
+  }

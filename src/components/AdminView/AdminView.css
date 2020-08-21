@@ -1,0 +1,30 @@
+.admin {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40rem;
+    margin: auto;
+    table-layout: fixed;
+    
+  }
+  
+  .admin td, .admin th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .admin tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .admin tr:hover {background-color: #ddd;}
+  
+  .admin th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #07AA9E;
+    color: white;
+  }
+
+  /* .admin th:nth-child(2) {
+      text-align: center;
+      width: 100px;
+  } */

@@ -1,0 +1,14 @@
+.card {
+    margin: 1em;
+    width: 200px
+}
+
+img {
+    height: 150px
+}
+
+#pizzaBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
